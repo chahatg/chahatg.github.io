@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+
+	<!--      Assignment 2: First Webpage  - Index page
+	Name: Chahat Gupta, UMass Lowell Computer Science Department
+	Email: chahat_gupta@student.uml.edu
+	Date: 9/12/18
+	This is a webpage, with information about myself and is going to be the index page for all my future assignments. I have used various tags that i learned throughout the lectures (like <p>, <br>, <h1>, etc.) and even made use of some very BASIC INLINE CSS STYLING for my header section.
+
+	I refered to lecture slides and the 1 hour Crash Course video - https://youtu.be/UB1O30fR-EE. 
+
+	W3C Markup Validation Service (http://validator.w3.org/) was used for validation! -->
+
+
+    		<title>About Chahat | Index of Assignments</title>
+<!-- Here I have made use for some in-line css styling for to add some color and style, and specify alignment -->
+<!-- #mainHeader block lets me specify the formatting for my header section, I wanted everything in header to be center aligned and have a nice soothing background. -->
+
+    		<style>			
+			#mainHeader{	
+        	text-align: center;
+        	color: #ff6600;
+			background-color: #ffcc66;
+        	padding: 15px;
+			}		
+			#about-me-heading{
+			text-align: center;
+			}		
+		</style>
+<!-- i aligned the about me heading to the center as well because it just flowed better visually-->
+	</head>
+	<body>
+		<header id="mainHeader"> <!-- I have given almost all my sections ids as I am learning that it is required to do css styling-->
+			<h1>Chahat Gupta </h1>
+			<br>
+<!--picture of me taken at the milford hot air balloon festival, summer 2017-->
+			<a href="images/me.jpg"> <img src="images/me.jpg" alt="Photo of Chahat" width="200"> </a> <!-- I used a hyperlink tag with my img addresss around the img tag so that when someone clicks on it they can see the picture enlarged and by itself-->
+ 		</header>
+
+ 		<section id="about-me-section">
+		
+			<h2 id="about-me-heading">About Me</h2> 
+  			<p> I am Chahat Gupta. I am in my senior year as a Computer Science major at UMass Lowell. I am currently enrolled in GUI I and glad to be learning some of the skills required to become a full stack developer! Besides GUI, I also have some interest in Robotics.</p>
+  			<p>Here are some fun facts about me :-</p>
+ 		  	<ul>
+  				<li>I have a chocolate brown labrador called 'Fudge'</li>
+  				<li>I like kayaking</li>
+  				<li>but I do not know how to swim</li>
+  			</ul>
+ 		</section>
+ 		<br>
+  		<hr> <!-- <hr> is to enter a breakline in the webpage which I feel gave my page more structure -->
+  		<br>
+ 		<section id = "index"> 
+			<h3>Index of GUI 1 Assignments</h3>
+ 			<ul>
+				<li><a href="index.html">Assignment 1: Setting up Index (link to this page it self)</a></li> <!-- here i gave the link to this page it self because that is the only assigment i have to present at the moment -->
+ 		    	</ul>
+ 		</section>
+  		<br>
+  		<hr>
+  		<br>
+  		<section id="contactInfo"> <!-- since this is a website about me, i figured my linkedin and email would be appropriate to put on here, specially if I ever advertise this website to future employers-->
+			<h3>Contact Me via:</h3>
+			<ul>
+  				<li><a href="https://www.linkedin.com/in/chahatg/" target="_blank"><strong>LinkedIn</strong></a></li>
+  				<li><a href="mailto:chahat_gupta@student.uml.edu">Email</a></li>
+			</ul>
+ 		</section>
+
+  	</body>
+</html>
